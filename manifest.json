@@ -5,8 +5,8 @@
   "articles": [
     {
       "id": "what-is-adhd",
-      "file": "articles/what-is-adhd.md",
-      "version": 1
+      "file": "what-is-adhd.md",
+      "version": 2
     }
   ]
 }
