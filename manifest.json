@@ -1,12 +1,12 @@
 ﻿{
   "schemaVersion": 1,
-  "contentVersion": "0.8.4",
-  "updated": "2026-08-06T14:25:00Z",
+  "contentVersion": "0.8.5",
+  "updated": "2026-08-06T14:50:00Z",
   "articles": [
     {
       "id": "what-is-adhd",
       "file": "what-is-adhd.md",
-      "version": 4
+      "version": 5
     }
   ]
 }
