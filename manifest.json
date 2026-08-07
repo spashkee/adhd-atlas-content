@@ -1,8 +1,53 @@
 ﻿{
   "schemaVersion": 1,
-  "contentVersion": "0.8.1",
-  "updated": "2026-08-06T15:40:00Z",
+  "contentVersion": "0.9.0",
+  "updated": "2026-08-07T00:00:00Z",
   "articles": [
+    {
+      "id": "brain-and-adhd",
+      "file": "brain-and-adhd.md",
+      "version": 1
+    },
+    {
+      "id": "diagnosis-of-adhd",
+      "file": "diagnosis-of-adhd.md",
+      "version": 1
+    },
+    {
+      "id": "dopamine-and-motivation",
+      "file": "dopamine-and-motivation.md",
+      "version": 1
+    },
+    {
+      "id": "emotional-dysregulation",
+      "file": "emotional-dysregulation.md",
+      "version": 1
+    },
+    {
+      "id": "executive-functions",
+      "file": "executive-functions.md",
+      "version": 1
+    },
+    {
+      "id": "hyperfocus",
+      "file": "hyperfocus.md",
+      "version": 1
+    },
+    {
+      "id": "medication",
+      "file": "medication.md",
+      "version": 1
+    },
+    {
+      "id": "symptoms-of-adhd",
+      "file": "symptoms-of-adhd.md",
+      "version": 1
+    },
+    {
+      "id": "time-blindness",
+      "file": "time-blindness.md",
+      "version": 1
+    },
     {
       "id": "what-is-adhd",
       "file": "what-is-adhd.md",
