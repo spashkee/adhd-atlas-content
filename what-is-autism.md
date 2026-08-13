@@ -61,3 +61,5 @@
 - NICE. **Autism spectrum disorder in under 19s: recognition, referral and diagnosis (CG128)**: https://www.nice.org.uk/guidance/cg128
 
 > Материал носит информационный характер и не заменяет диагностику специалиста.
+
+> ���� ���˨����� ���������� � 13.08.2026
