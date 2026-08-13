@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
-    "contentVersion":  "0.10.3",
-    "updated":  "2026-08-13T10:35:21Z",
+    "contentVersion":  "0.10.4",
+    "updated":  "2026-08-13T10:44:03Z",
     "articles":  [
                      {
                          "id":  "autism-diagnosis",
@@ -111,7 +111,7 @@
                      {
                          "id":  "what-is-autism",
                          "file":  "what-is-autism.md",
-                         "version":  3
+                         "version":  4
                      },
                      {
                          "id":  "what-is-dcd",
