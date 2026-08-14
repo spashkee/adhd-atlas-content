@@ -1,132 +1,187 @@
 {
-    "schemaVersion":  1,
-    "contentVersion":  "0.10.4",
-    "updated":  "2026-08-13T10:44:03Z",
-    "articles":  [
-                     {
-                         "id":  "autism-diagnosis",
-                         "file":  "autism-diagnosis.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "autism-features",
-                         "file":  "autism-features.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "brain-and-adhd",
-                         "file":  "brain-and-adhd.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "dcd-assessment",
-                         "file":  "dcd-assessment.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "dcd-features",
-                         "file":  "dcd-features.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "diagnosis-of-adhd",
-                         "file":  "diagnosis-of-adhd.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "dopamine-and-motivation",
-                         "file":  "dopamine-and-motivation.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "dyscalculia-assessment",
-                         "file":  "dyscalculia-assessment.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "dyscalculia-features",
-                         "file":  "dyscalculia-features.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "dyslexia-assessment",
-                         "file":  "dyslexia-assessment.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "dyslexia-features",
-                         "file":  "dyslexia-features.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "emotional-dysregulation",
-                         "file":  "emotional-dysregulation.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "executive-functions",
-                         "file":  "executive-functions.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "hyperfocus",
-                         "file":  "hyperfocus.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "medication",
-                         "file":  "medication.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "symptoms-of-adhd",
-                         "file":  "symptoms-of-adhd.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "tic-disorders-diagnosis",
-                         "file":  "tic-disorders-diagnosis.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "tic-disorders-features",
-                         "file":  "tic-disorders-features.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "time-blindness",
-                         "file":  "time-blindness.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "what-are-tic-disorders",
-                         "file":  "what-are-tic-disorders.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "what-is-adhd",
-                         "file":  "what-is-adhd.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "what-is-autism",
-                         "file":  "what-is-autism.md",
-                         "version":  4
-                     },
-                     {
-                         "id":  "what-is-dcd",
-                         "file":  "what-is-dcd.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "what-is-dyscalculia",
-                         "file":  "what-is-dyscalculia.md",
-                         "version":  1
-                     },
-                     {
-                         "id":  "what-is-dyslexia",
-                         "file":  "what-is-dyslexia.md",
-                         "version":  1
-                     }
-                 ]
+  "schemaVersion": 1,
+  "contentVersion": "0.11.0",
+  "updated": "2026-08-14T13:16:00Z",
+  "articles": [
+    {
+      "id": "autism-diagnosis",
+      "file": "autism-diagnosis.md",
+      "version": 2
+    },
+    {
+      "id": "autism-everyday-support",
+      "file": "autism-everyday-support.md",
+      "version": 1
+    },
+    {
+      "id": "autism-features",
+      "file": "autism-features.md",
+      "version": 2
+    },
+    {
+      "id": "autism-sensory-overload",
+      "file": "autism-sensory-overload.md",
+      "version": 1
+    },
+    {
+      "id": "brain-and-adhd",
+      "file": "brain-and-adhd.md",
+      "version": 1
+    },
+    {
+      "id": "dcd-adults-daily-life",
+      "file": "dcd-adults-daily-life.md",
+      "version": 1
+    },
+    {
+      "id": "dcd-assessment",
+      "file": "dcd-assessment.md",
+      "version": 2
+    },
+    {
+      "id": "dcd-features",
+      "file": "dcd-features.md",
+      "version": 2
+    },
+    {
+      "id": "dcd-support-strategies",
+      "file": "dcd-support-strategies.md",
+      "version": 1
+    },
+    {
+      "id": "diagnosis-of-adhd",
+      "file": "diagnosis-of-adhd.md",
+      "version": 1
+    },
+    {
+      "id": "dopamine-and-motivation",
+      "file": "dopamine-and-motivation.md",
+      "version": 1
+    },
+    {
+      "id": "dyscalculia-assessment",
+      "file": "dyscalculia-assessment.md",
+      "version": 2
+    },
+    {
+      "id": "dyscalculia-daily-life",
+      "file": "dyscalculia-daily-life.md",
+      "version": 1
+    },
+    {
+      "id": "dyscalculia-features",
+      "file": "dyscalculia-features.md",
+      "version": 2
+    },
+    {
+      "id": "dyscalculia-support-strategies",
+      "file": "dyscalculia-support-strategies.md",
+      "version": 1
+    },
+    {
+      "id": "dyslexia-adults-daily-life",
+      "file": "dyslexia-adults-daily-life.md",
+      "version": 1
+    },
+    {
+      "id": "dyslexia-assessment",
+      "file": "dyslexia-assessment.md",
+      "version": 2
+    },
+    {
+      "id": "dyslexia-features",
+      "file": "dyslexia-features.md",
+      "version": 2
+    },
+    {
+      "id": "dyslexia-support-strategies",
+      "file": "dyslexia-support-strategies.md",
+      "version": 1
+    },
+    {
+      "id": "emotional-dysregulation",
+      "file": "emotional-dysregulation.md",
+      "version": 1
+    },
+    {
+      "id": "executive-functions",
+      "file": "executive-functions.md",
+      "version": 1
+    },
+    {
+      "id": "hyperfocus",
+      "file": "hyperfocus.md",
+      "version": 1
+    },
+    {
+      "id": "medication",
+      "file": "medication.md",
+      "version": 1
+    },
+    {
+      "id": "neurodivergence-cooccurrence",
+      "file": "neurodivergence-cooccurrence.md",
+      "version": 1
+    },
+    {
+      "id": "symptoms-of-adhd",
+      "file": "symptoms-of-adhd.md",
+      "version": 1
+    },
+    {
+      "id": "tic-disorders-daily-life",
+      "file": "tic-disorders-daily-life.md",
+      "version": 1
+    },
+    {
+      "id": "tic-disorders-diagnosis",
+      "file": "tic-disorders-diagnosis.md",
+      "version": 2
+    },
+    {
+      "id": "tic-disorders-features",
+      "file": "tic-disorders-features.md",
+      "version": 2
+    },
+    {
+      "id": "tic-disorders-treatment",
+      "file": "tic-disorders-treatment.md",
+      "version": 1
+    },
+    {
+      "id": "time-blindness",
+      "file": "time-blindness.md",
+      "version": 1
+    },
+    {
+      "id": "what-are-tic-disorders",
+      "file": "what-are-tic-disorders.md",
+      "version": 2
+    },
+    {
+      "id": "what-is-adhd",
+      "file": "what-is-adhd.md",
+      "version": 1
+    },
+    {
+      "id": "what-is-autism",
+      "file": "what-is-autism.md",
+      "version": 5
+    },
+    {
+      "id": "what-is-dcd",
+      "file": "what-is-dcd.md",
+      "version": 2
+    },
+    {
+      "id": "what-is-dyscalculia",
+      "file": "what-is-dyscalculia.md",
+      "version": 2
+    },
+    {
+      "id": "what-is-dyslexia",
+      "file": "what-is-dyslexia.md",
+      "version": 2
+    }
+  ]
 }
