@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.11.0",
+  "updated": "2026-08-17T19:10:00Z",
+  "articles": [
+    {
+      "id": "what-is-adhd",
+      "title": "Что такое СДВГ?",
+      "description": "Простое объяснение синдрома дефицита внимания и гиперактивности.",
+      "category": "Основы",
+      "neurotypes": [
+        "adhd"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 8,
+      "lastUpdated": "2026-07-31",
+      "featured": true,
+      "file": "what-is-adhd.md"
+    },
+    {
+      "id": "symptoms-of-adhd",
+      "title": "Симптомы СДВГ",
+      "description": "Какие симптомы характерны для детей и взрослых с СДВГ.",
+      "category": "Основы",
+      "neurotypes": [
+        "adhd"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 7,
+      "lastUpdated": "2026-07-31",
+      "featured": true,
+      "file": "symptoms-of-adhd.md"
+    },
+    {
+      "id": "diagnosis-of-adhd",
+      "title": "Как диагностируют СДВГ",
+      "description": "Как проходит диагностика, какие критерии используются и почему одного теста недостаточно.",
+      "category": "Основы",
+      "neurotypes": [
+        "adhd"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 8,
+      "lastUpdated": "2026-07-28",
+      "featured": true,
+      "file": "diagnosis-of-adhd.md"
+    },
+    {
+      "id": "executive-functions",
+      "title": "Исполнительные функции",
+      "description": "Почему при СДВГ бывает сложно начать дело, организовать работу и довести её до конца.",
+      "category": "Основы",
+      "neurotypes": [
+        "adhd"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 9,
+      "lastUpdated": "2026-07-28",
+      "featured": true,
+      "file": "executive-functions.md"
+    },
+    {
+      "id": "brain-and-adhd",
+      "title": "Что происходит в мозге при СДВГ",
+      "description": "Как современные исследования объясняют особенности работы мозга при СДВГ.",
+      "category": "Основы",
+      "neurotypes": [
+        "adhd"
+      ],
+      "difficulty": "Средний",
+      "readingTime": 8,
+      "lastUpdated": "2026-07-28",
+      "featured": true,
+      "file": "brain-and-adhd.md"
+    },
+    {
+      "id": "neurodivergence-cooccurrence",
+      "title": "Когда нейроотличия сочетаются",
+      "description": "Почему у одного человека могут одновременно встречаться несколько нейроразвитийных состояний и почему похожие признаки не всегда имеют одну причину.",
+      "category": "Общее",
+      "neurotypes": [
+        "adhd",
+        "autism",
+        "dyslexia",
+        "dyscalculia",
+        "developmental-coordination-disorder",
+        "tic-disorders"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 6,
+      "lastUpdated": "2026-08-14",
+      "featured": false,
+      "file": "neurodivergence-cooccurrence.md"
+    },
+    {
+      "id": "medication",
+      "title": "Медикаментозная терапия",
+      "description": "Какие препараты применяются при СДВГ и зачем их назначают.",
+      "category": "Лечение",
+      "neurotypes": [
+        "adhd"
+      ],
+      "difficulty": "Средний",
+      "readingTime": 12,
+      "lastUpdated": "2026-07-31",
+      "featured": false,
+      "file": "medication.md"
+    },
+    {
+      "id": "hyperfocus",
+      "title": "Гиперфокус при СДВГ",
+      "description": "Почему при СДВГ иногда возникает состояние сильной концентрации и сложно переключиться.",
+      "category": "Особенности",
+      "neurotypes": [
+        "adhd"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 10,
+      "lastUpdated": "2026-07-31",
+      "featured": false,
+      "file": "hyperfocus.md"
+    },
+    {
+      "id": "emotional-dysregulation",
+      "title": "Эмоциональная дисрегуляция при СДВГ",
+      "description": "Почему при СДВГ эмоции могут ощущаться сильнее и сложнее поддаваться контролю.",
+      "category": "Особенности",
+      "neurotypes": [
+        "adhd"
+      ],
+      "difficulty": "Средний",
+      "readingTime": 12,
+      "lastUpdated": "2026-07-31",
+      "featured": false,
+      "file": "emotional-dysregulation.md"
+    },
+    {
+      "id": "time-blindness",
+      "title": "Тайм-блайнднес (слепота ко времени)",
+      "description": "Почему людям с СДВГ бывает сложно оценивать время и планировать задачи.",
+      "category": "Особенности",
+      "neurotypes": [
+        "adhd"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 12,
+      "lastUpdated": "2026-07-31",
+      "featured": false,
+      "file": "time-blindness.md"
+    },
+    {
+      "id": "dopamine-and-motivation",
+      "title": "Дофамин и мотивация",
+      "description": "Как связаны система вознаграждения, мотивация и особенности поведения при СДВГ.",
+      "category": "Особенности",
+      "neurotypes": [
+        "adhd"
+      ],
+      "difficulty": "Средний",
+      "readingTime": 10,
+      "lastUpdated": "2026-07-31",
+      "featured": false,
+      "file": "dopamine-and-motivation.md"
+    },
+    {
+      "id": "what-is-autism",
+      "title": "Что такое РАС?",
+      "description": "Что такое расстройство аутистического спектра, почему говорят о спектре и насколько разными могут быть потребности людей.",
+      "category": "Основы",
+      "neurotypes": [
+        "autism"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 8,
+      "lastUpdated": "2026-08-12",
+      "featured": true,
+      "file": "what-is-autism.md"
+    },
+    {
+      "id": "autism-features",
+      "title": "Как может проявляться РАС",
+      "description": "Социальная коммуникация, повторяемость, интересы, сенсорные особенности и то, почему проявления могут быть неочевидны.",
+      "category": "Особенности",
+      "neurotypes": [
+        "autism"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 9,
+      "lastUpdated": "2026-08-12",
+      "featured": true,
+      "file": "autism-features.md"
+    },
+    {
+      "id": "autism-diagnosis",
+      "title": "Как диагностируют РАС",
+      "description": "Как проходит комплексная оценка, зачем нужна история развития и почему одного опросника недостаточно.",
+      "category": "Диагностика",
+      "neurotypes": [
+        "autism"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 9,
+      "lastUpdated": "2026-08-12",
+      "featured": true,
+      "file": "autism-diagnosis.md"
+    },
+    {
+      "id": "autism-sensory-overload",
+      "title": "Сенсорная перегрузка при РАС",
+      "description": "Как может ощущаться сенсорная перегрузка, почему нагрузка накапливается и какие изменения среды могут помочь.",
+      "category": "Повседневная жизнь",
+      "neurotypes": [
+        "autism"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 8,
+      "lastUpdated": "2026-08-14",
+      "featured": false,
+      "file": "autism-sensory-overload.md"
+    },
+    {
+      "id": "autism-everyday-support",
+      "title": "Что помогает аутичному взрослому в повседневной жизни",
+      "description": "Предсказуемость, ясная коммуникация, сенсорная среда, восстановление и другие индивидуальные способы уменьшить повседневные барьеры.",
+      "category": "Поддержка",
+      "neurotypes": [
+        "autism"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 5,
+      "lastUpdated": "2026-08-14",
+      "featured": false,
+      "file": "autism-everyday-support.md"
+    },
+    {
+      "id": "what-is-dyslexia",
+      "title": "Что такое дислексия?",
+      "description": "Что называют дислексией, какие навыки чтения могут быть затронуты и почему это не вопрос старания или интеллекта.",
+      "category": "Основы",
+      "neurotypes": [
+        "dyslexia"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 7,
+      "lastUpdated": "2026-08-12",
+      "featured": true,
+      "file": "what-is-dyslexia.md"
+    },
+    {
+      "id": "dyslexia-features",
+      "title": "Как могут проявляться трудности чтения",
+      "description": "Скорость, точность, понимание текста, нагрузка при чтении и возможные трудности в учёбе и работе.",
+      "category": "Особенности",
+      "neurotypes": [
+        "dyslexia"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 7,
+      "lastUpdated": "2026-08-12",
+      "featured": true,
+      "file": "dyslexia-features.md"
+    },
+    {
+      "id": "dyslexia-assessment",
+      "title": "Как оценивают трудности чтения",
+      "description": "Почему одного онлайн-теста недостаточно и какие навыки и обстоятельства учитывают при профессиональной оценке.",
+      "category": "Диагностика",
+      "neurotypes": [
+        "dyslexia"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 6,
+      "lastUpdated": "2026-08-12",
+      "featured": false,
+      "file": "dyslexia-assessment.md"
+    },
+    {
+      "id": "dyslexia-adults-daily-life",
+      "title": "Дислексия во взрослом возрасте",
+      "description": "Как дислексия может влиять на работу, учёбу, чтение, письмо, память и организацию повседневных задач.",
+      "category": "Повседневная жизнь",
+      "neurotypes": [
+        "dyslexia"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 6,
+      "lastUpdated": "2026-08-14",
+      "featured": false,
+      "file": "dyslexia-adults-daily-life.md"
+    },
+    {
+      "id": "dyslexia-support-strategies",
+      "title": "Что помогает при дислексии",
+      "description": "Технологии и адаптации для чтения, письма, инструкций, встреч и организации информации.",
+      "category": "Поддержка",
+      "neurotypes": [
+        "dyslexia"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 5,
+      "lastUpdated": "2026-08-14",
+      "featured": false,
+      "file": "dyslexia-support-strategies.md"
+    },
+    {
+      "id": "what-is-dyscalculia",
+      "title": "Что такое дискалькулия?",
+      "description": "Что называют дискалькулией, какие математические навыки могут быть затронуты и почему это не показатель интеллекта.",
+      "category": "Основы",
+      "neurotypes": [
+        "dyscalculia"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 7,
+      "lastUpdated": "2026-08-12",
+      "featured": true,
+      "file": "what-is-dyscalculia.md"
+    },
+    {
+      "id": "dyscalculia-features",
+      "title": "Как могут проявляться трудности с математикой",
+      "description": "Чувство числа, вычисления, математические символы и ситуации, в которых трудности могут проявляться в повседневной жизни.",
+      "category": "Особенности",
+      "neurotypes": [
+        "dyscalculia"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 7,
+      "lastUpdated": "2026-08-12",
+      "featured": true,
+      "file": "dyscalculia-features.md"
+    },
+    {
+      "id": "dyscalculia-assessment",
+      "title": "Как оценивают трудности с математикой",
+      "description": "Что проверяют при оценке математических навыков и почему результат рассматривают вместе с историей обучения.",
+      "category": "Диагностика",
+      "neurotypes": [
+        "dyscalculia"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 6,
+      "lastUpdated": "2026-08-12",
+      "featured": false,
+      "file": "dyscalculia-assessment.md"
+    },
+    {
+      "id": "dyscalculia-daily-life",
+      "title": "Дискалькулия в повседневной жизни",
+      "description": "Деньги, время, покупки, маршруты, измерения и другие ситуации, где числовые трудности могут становиться заметными.",
+      "category": "Повседневная жизнь",
+      "neurotypes": [
+        "dyscalculia"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 5,
+      "lastUpdated": "2026-08-14",
+      "featured": false,
+      "file": "dyscalculia-daily-life.md"
+    },
+    {
+      "id": "dyscalculia-support-strategies",
+      "title": "Что помогает при дискалькулии",
+      "description": "Калькуляторы, шаблоны, автоматизация, внешние опоры и другие способы сделать числовые задачи надёжнее.",
+      "category": "Поддержка",
+      "neurotypes": [
+        "dyscalculia"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 5,
+      "lastUpdated": "2026-08-14",
+      "featured": false,
+      "file": "dyscalculia-support-strategies.md"
+    },
+    {
+      "id": "what-is-dcd",
+      "title": "Что такое расстройство развития координации?",
+      "description": "Что такое DCD, почему его также называют диспраксией и как двигательные трудности могут влиять на повседневную жизнь.",
+      "category": "Основы",
+      "neurotypes": [
+        "developmental-coordination-disorder"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 7,
+      "lastUpdated": "2026-08-12",
+      "featured": true,
+      "file": "what-is-dcd.md"
+    },
+    {
+      "id": "dcd-features",
+      "title": "Как может проявляться нарушение координации",
+      "description": "Крупные движения, точная моторика, освоение новых действий и влияние двигательных трудностей на учёбу, работу и быт.",
+      "category": "Особенности",
+      "neurotypes": [
+        "developmental-coordination-disorder"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 7,
+      "lastUpdated": "2026-08-12",
+      "featured": true,
+      "file": "dcd-features.md"
+    },
+    {
+      "id": "dcd-assessment",
+      "title": "Как оценивают расстройство развития координации",
+      "description": "Что учитывают при профессиональной оценке двигательных навыков и почему одной внешней неловкости недостаточно.",
+      "category": "Диагностика",
+      "neurotypes": [
+        "developmental-coordination-disorder"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 6,
+      "lastUpdated": "2026-08-12",
+      "featured": false,
+      "file": "dcd-assessment.md"
+    },
+    {
+      "id": "dcd-adults-daily-life",
+      "title": "DCD у взрослых: быт, работа и самостоятельность",
+      "description": "Как нарушение развития координации может влиять на бытовые действия, работу, письмо, физическую активность и вождение.",
+      "category": "Повседневная жизнь",
+      "neurotypes": [
+        "developmental-coordination-disorder"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 5,
+      "lastUpdated": "2026-08-14",
+      "featured": false,
+      "file": "dcd-adults-daily-life.md"
+    },
+    {
+      "id": "dcd-support-strategies",
+      "title": "Что помогает при DCD",
+      "description": "Адаптация среды, освоение конкретных двигательных навыков, выбор инструментов и способы уменьшить лишнюю моторную нагрузку.",
+      "category": "Поддержка",
+      "neurotypes": [
+        "developmental-coordination-disorder"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 5,
+      "lastUpdated": "2026-08-14",
+      "featured": false,
+      "file": "dcd-support-strategies.md"
+    },
+    {
+      "id": "what-are-tic-disorders",
+      "title": "Что такое тиковые расстройства?",
+      "description": "Что такое двигательные и вокальные тики, чем синдром Туретта отличается от других тиковых расстройств и почему тики не являются обычной привычкой.",
+      "category": "Основы",
+      "neurotypes": [
+        "tic-disorders"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 7,
+      "lastUpdated": "2026-08-12",
+      "featured": true,
+      "file": "what-are-tic-disorders.md"
+    },
+    {
+      "id": "tic-disorders-features",
+      "title": "Как могут проявляться тики",
+      "description": "Двигательные и вокальные тики, внутренний позыв, возможность временного подавления и причины изменения выраженности.",
+      "category": "Особенности",
+      "neurotypes": [
+        "tic-disorders"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 7,
+      "lastUpdated": "2026-08-12",
+      "featured": true,
+      "file": "tic-disorders-features.md"
+    },
+    {
+      "id": "tic-disorders-diagnosis",
+      "title": "Как диагностируют тиковые расстройства",
+      "description": "Какие признаки и историю симптомов оценивает специалист и почему для диагностики обычно не нужен один специальный тест.",
+      "category": "Диагностика",
+      "neurotypes": [
+        "tic-disorders"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 7,
+      "lastUpdated": "2026-08-12",
+      "featured": false,
+      "file": "tic-disorders-diagnosis.md"
+    },
+    {
+      "id": "tic-disorders-treatment",
+      "title": "Как лечат тики: CBIT, лекарства и когда лечение вообще нужно",
+      "description": "Когда тики требуют лечения, как работает CBIT, какие лекарства могут использоваться и почему цель помощи — уменьшить влияние тиков на жизнь, а не обязательно убрать их полностью.",
+      "category": "Лечение",
+      "neurotypes": [
+        "tic-disorders"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 7,
+      "lastUpdated": "2026-08-14",
+      "featured": false,
+      "file": "tic-disorders-treatment.md"
+    },
+    {
+      "id": "tic-disorders-daily-life",
+      "title": "Как жить с тиками",
+      "description": "Работа, учёба, общение, попытки подавлять тики и способы уменьшить влияние реакции окружающих на повседневную жизнь.",
+      "category": "Повседневная жизнь",
+      "neurotypes": [
+        "tic-disorders"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 5,
+      "lastUpdated": "2026-08-14",
+      "featured": false,
+      "file": "tic-disorders-daily-life.md"
+    }
+  ]
+}
