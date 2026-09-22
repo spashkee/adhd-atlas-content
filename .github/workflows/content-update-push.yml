@@ -1,0 +1,243 @@
+name: Content update push
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "manifest.json"
+      - "catalog.json"
+      - "articles/**"
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    name: Notify about content update
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+
+      - name: Validate content metadata
+        id: metadata
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE_SHA: ${{ github.event.before }}
+        run: |
+          node --input-type=module <<'NODE'
+          import {
+            appendFileSync,
+            readFileSync,
+          } from "node:fs";
+
+          import {
+            execFileSync,
+          } from "node:child_process";
+
+
+          const manifest =
+            JSON.parse(
+              readFileSync(
+                "manifest.json",
+                "utf8",
+              ),
+            );
+
+          const catalog =
+            JSON.parse(
+              readFileSync(
+                "catalog.json",
+                "utf8",
+              ),
+            );
+
+
+          const version =
+            String(
+              manifest.contentVersion ?? "",
+            ).trim();
+
+
+          if (!version) {
+            throw new Error(
+              "manifest.json has no contentVersion.",
+            );
+          }
+
+
+          if (
+            String(
+              catalog.contentVersion ?? "",
+            ).trim() !== version
+          ) {
+            throw new Error(
+              "catalog.json and manifest.json contentVersion differ.",
+            );
+          }
+
+
+          let previousVersion = "";
+
+
+          if (
+            process.env.EVENT_NAME === "push"
+          ) {
+            const before =
+              process.env.BEFORE_SHA ?? "";
+
+
+            if (
+              before &&
+              !/^0+$/.test(before)
+            ) {
+              try {
+                const previousManifest =
+                  JSON.parse(
+                    execFileSync(
+                      "git",
+                      [
+                        "show",
+                        `${before}:manifest.json`,
+                      ],
+                      {
+                        encoding: "utf8",
+                      },
+                    ),
+                  );
+
+
+                previousVersion =
+                  String(
+                    previousManifest.contentVersion ??
+                    "",
+                  ).trim();
+
+              } catch {
+                previousVersion = "";
+              }
+            }
+          }
+
+
+          const changed =
+            process.env.EVENT_NAME ===
+              "workflow_dispatch" ||
+            previousVersion !== version;
+
+
+          appendFileSync(
+            process.env.GITHUB_OUTPUT,
+            [
+              `content_version=${version}`,
+              `previous_version=${previousVersion}`,
+              `changed=${changed}`,
+              "",
+            ].join("\n"),
+            "utf8",
+          );
+
+
+          console.log(
+            `Previous contentVersion: ${previousVersion || "(unknown)"}`,
+          );
+
+          console.log(
+            `Current contentVersion: ${version}`,
+          );
+
+          console.log(
+            `Send notification: ${changed}`,
+          );
+          NODE
+
+      - name: Wait for public manifest
+        if: ${{ steps.metadata.outputs.changed == 'true' }}
+        env:
+          EXPECTED_VERSION: ${{ steps.metadata.outputs.content_version }}
+        run: |
+          set -euo pipefail
+
+          url="https://raw.githubusercontent.com/spashkee/adhd-atlas-content/main/manifest.json"
+
+          for attempt in $(seq 1 18); do
+            echo "Checking public manifest: attempt $attempt"
+
+            if curl \
+              --fail \
+              --silent \
+              --show-error \
+              --location \
+              --output "$RUNNER_TEMP/public-manifest.json" \
+              "$url?check=$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT-$attempt"
+            then
+              if node --input-type=module - "$RUNNER_TEMP/public-manifest.json" "$EXPECTED_VERSION" <<'NODE'
+          import {
+            readFileSync,
+          } from "node:fs";
+
+
+          const [
+            path,
+            expectedVersion,
+          ] =
+            process.argv.slice(2);
+
+
+          const manifest =
+            JSON.parse(
+              readFileSync(
+                path,
+                "utf8",
+              ),
+            );
+
+
+          process.exit(
+            manifest.contentVersion ===
+              expectedVersion
+              ? 0
+              : 1,
+          );
+          NODE
+              then
+                echo "Public manifest $EXPECTED_VERSION is available."
+                exit 0
+              fi
+            fi
+
+            sleep 5
+          done
+
+          echo "::error::Public manifest did not reach contentVersion $EXPECTED_VERSION."
+          exit 1
+
+      - name: Send content update push
+        if: ${{ steps.metadata.outputs.changed == 'true' }}
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          CONTENT_VERSION: ${{ steps.metadata.outputs.content_version }}
+        run: |
+          node scripts/send-fcm-topic.mjs \
+            --topic mayak_content_updates \
+            --title "Новые материалы в «Маяке»" \
+            --body "Появились новые или обновлённые материалы." \
+            --data "type=content_update" \
+            --data "contentVersion=$CONTENT_VERSION" \
+            --data "source=content_repository"
+
+      - name: No content version change
+        if: ${{ steps.metadata.outputs.changed != 'true' }}
+        run: |
+          echo "contentVersion did not change; push notification skipped."
