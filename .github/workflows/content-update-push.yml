@@ -229,7 +229,10 @@ jobs:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
           CONTENT_VERSION: ${{ steps.metadata.outputs.content_version }}
         run: |
-          set -euo pipefail
+          set -uo pipefail
+
+          legacy_failed=0
+          v2_failed=0
 
           node scripts/send-fcm-topic.mjs \
             --topic mayak_content_updates \
@@ -237,7 +240,7 @@ jobs:
             --body "Появились новые или обновлённые материалы." \
             --data "type=content_update" \
             --data "contentVersion=$CONTENT_VERSION" \
-            --data "source=content_repository"
+            --data "source=content_repository" || legacy_failed=1
 
           node scripts/send-fcm-topic.mjs \
             --topic mayak_content_updates_v2 \
@@ -247,7 +250,12 @@ jobs:
             --data "type=content_update" \
             --data "contentVersion=$CONTENT_VERSION" \
             --data "source=content_repository" \
-            --data "delivery=update_v2"
+            --data "delivery=update_v2" || v2_failed=1
+
+          if [ "$legacy_failed" -ne 0 ] || [ "$v2_failed" -ne 0 ]; then
+            echo "::error::One or more content update pushes failed."
+            exit 1
+          fi
 
       - name: No content version change
         if: ${{ steps.metadata.outputs.changed != 'true' }}
