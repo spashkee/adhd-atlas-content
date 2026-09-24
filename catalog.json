@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.12.0",
-  "updated": "2026-09-23T12:45:31Z",
+  "contentVersion": "0.12.1",
+  "updated": "2026-09-24T10:20:00Z",
   "articles": [
     {
       "id": "what-is-adhd",
@@ -441,76 +441,6 @@
       "lastUpdated": "2026-08-14",
       "featured": false,
       "file": "dcd-support-strategies.md"
-    },
-    {
-      "id": "what-is-dld",
-      "title": "Что такое DLD?",
-      "description": "Что такое Developmental Language Disorder, как оно может влиять на понимание и использование языка и почему это не просто «поздняя речь».",
-      "category": "Основы",
-      "neurotypes": [
-        "developmental-language-disorder"
-      ],
-      "difficulty": "Начальный",
-      "readingTime": 8,
-      "lastUpdated": "2026-09-23",
-      "featured": true,
-      "file": "what-is-dld.md"
-    },
-    {
-      "id": "dld-features",
-      "title": "Как может проявляться DLD",
-      "description": "Понимание речи, словарь, грамматика, связная речь, чтение и письмо — и то, как проявления меняются с возрастом.",
-      "category": "Особенности",
-      "neurotypes": [
-        "developmental-language-disorder"
-      ],
-      "difficulty": "Начальный",
-      "readingTime": 8,
-      "lastUpdated": "2026-09-23",
-      "featured": true,
-      "file": "dld-features.md"
-    },
-    {
-      "id": "dld-assessment",
-      "title": "Как оценивают и диагностируют DLD",
-      "description": "Что входит в комплексную языковую оценку, зачем учитывать слух и языковой опыт и почему одного онлайн-теста недостаточно.",
-      "category": "Диагностика",
-      "neurotypes": [
-        "developmental-language-disorder"
-      ],
-      "difficulty": "Начальный",
-      "readingTime": 7,
-      "lastUpdated": "2026-09-23",
-      "featured": false,
-      "file": "dld-assessment.md"
-    },
-    {
-      "id": "dld-adults-daily-life",
-      "title": "DLD во взрослом возрасте",
-      "description": "Как языковые особенности могут влиять на работу, учёбу, устные инструкции, общение и письменные задачи.",
-      "category": "Повседневная жизнь",
-      "neurotypes": [
-        "developmental-language-disorder"
-      ],
-      "difficulty": "Начальный",
-      "readingTime": 7,
-      "lastUpdated": "2026-09-23",
-      "featured": false,
-      "file": "dld-adults-daily-life.md"
-    },
-    {
-      "id": "dld-support-strategies",
-      "title": "Что помогает при DLD",
-      "description": "Ясные инструкции, письменные и визуальные опоры, работа со словарём, языковая терапия и адаптация учёбы и работы.",
-      "category": "Поддержка",
-      "neurotypes": [
-        "developmental-language-disorder"
-      ],
-      "difficulty": "Начальный",
-      "readingTime": 7,
-      "lastUpdated": "2026-09-23",
-      "featured": false,
-      "file": "dld-support-strategies.md"
     },
     {
       "id": "what-are-tic-disorders",
