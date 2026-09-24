@@ -373,6 +373,69 @@ async function main() {
     );
 
 
+  const dataOnlyValue =
+    String(
+      options["data-only"] ??
+        "false"
+    )
+      .trim()
+      .toLowerCase();
+
+
+  if (
+    dataOnlyValue !== "true" &&
+    dataOnlyValue !== "false"
+  ) {
+    fail(
+      "--data-only must be true or false."
+    );
+  }
+
+
+  const dataOnly =
+    dataOnlyValue === "true";
+
+
+  const messageData = {
+    ...options.data,
+  };
+
+
+  if (dataOnly) {
+    messageData.title = title;
+    messageData.body = body;
+  }
+
+
+  const message = {
+    topic,
+
+    data:
+      messageData,
+
+    android: {
+      priority:
+        "high",
+
+      ttl:
+        "86400s",
+    },
+  };
+
+
+  if (!dataOnly) {
+    message.notification = {
+      title,
+      body,
+    };
+
+    message.android.notification = {
+      sound:
+        "default",
+    };
+  }
+
+
   const serviceAccount =
     parseServiceAccount();
 
@@ -400,30 +463,7 @@ async function main() {
 
         body:
           JSON.stringify({
-            message: {
-              topic,
-
-              notification: {
-                title,
-                body,
-              },
-
-              data:
-                options.data,
-
-              android: {
-                priority:
-                  "high",
-
-                ttl:
-                  "86400s",
-
-                notification: {
-                  sound:
-                    "default",
-                },
-              },
-            },
+            message,
           }),
       }
     );
