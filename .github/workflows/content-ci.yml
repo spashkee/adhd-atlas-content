@@ -1,0 +1,96 @@
+name: Content CI
+
+on:
+  push:
+    branches-ignore:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Verify remote content
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+
+      - name: Check FCM sender syntax
+        run: node --check scripts/send-fcm-topic.mjs
+
+      - name: Validate Android 0.11.0 compatibility
+        run: node scripts/validate-v011-compatibility.mjs
+
+      - name: Validate content files
+        run: |
+          node --input-type=module <<'NODE'
+          import {
+            existsSync,
+            readFileSync,
+          } from "node:fs";
+
+          const manifest = JSON.parse(
+            readFileSync("manifest.json", "utf8"),
+          );
+          const catalog = JSON.parse(
+            readFileSync("catalog.json", "utf8"),
+          );
+
+          if (
+            manifest.contentVersion !==
+            catalog.contentVersion
+          ) {
+            throw new Error("contentVersion mismatch");
+          }
+
+          if (
+            manifest.articles.length !==
+            catalog.articles.length
+          ) {
+            throw new Error("article count mismatch");
+          }
+
+          const manifestById = new Map(
+            manifest.articles.map(
+              (article) => [
+                article.id,
+                article.file,
+              ],
+            ),
+          );
+
+          for (const article of catalog.articles) {
+            if (
+              manifestById.get(article.id) !==
+              article.file
+            ) {
+              throw new Error(
+                `catalog/manifest mismatch: ${article.id}`,
+              );
+            }
+
+            if (
+              !existsSync(
+                `articles/${article.file}`,
+              )
+            ) {
+              throw new Error(
+                `missing article file: ${article.file}`,
+              );
+            }
+          }
+
+          console.log(
+            `Remote content OK: ${catalog.contentVersion}, ${catalog.articles.length} articles`,
+          );
+          NODE
