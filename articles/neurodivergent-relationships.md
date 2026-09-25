@@ -66,7 +66,7 @@
 
 ## Источники
 
-- Young S. et al. **Adult ADHD and romantic relationships: What we know and what we can do to help.** *Family Process*, 2021. https://pubmed.ncbi.nlm.nih.gov/33421168/
+- Wymbs B.T. et al. **Adult ADHD and romantic relationships: What we know and what we can do to help.** *Journal of Marital and Family Therapy*, 2021;47(3):664–681. https://doi.org/10.1111/jmft.12475; https://pubmed.ncbi.nlm.nih.gov/33421168/
 - National Institute for Health and Care Excellence. **Autism spectrum disorder in adults: diagnosis and management (CG142).** https://www.nice.org.uk/guidance/cg142/chapter/recommendations
 - National Institute for Health and Care Excellence. **Attention deficit hyperactivity disorder: diagnosis and management (NG87).** https://www.nice.org.uk/guidance/ng87/chapter/recommendations
 

@@ -58,6 +58,8 @@
 
 Использование опоры не означает, что человек «обходит» задачу. Часто это способ показать знание или навык в доступном формате.
 
+Исследования рабочих адаптаций неоднородны, и значительная часть опубликованных данных относится к аутизму и рабочей среде. Поэтому этот список — набор возможных способов убрать конкретный барьер, а не универсально доказанные решения для любого нейроотличия, места учёбы или работы.
+
 ## Как подготовить разговор
 
 Перед встречей полезно записать один-два приоритета. Чем точнее запрос, тем проще проверить, сработал ли он.
@@ -90,7 +92,7 @@
 ## Источники
 
 - National Institute for Health and Care Excellence. **Autism spectrum disorder in adults: diagnosis and management (CG142).** https://www.nice.org.uk/guidance/cg142/chapter/recommendations
-- Vincent J. **Workplace accommodations for adults with autism spectrum disorder: a scoping review.** *Disability and Rehabilitation*, 2020. https://pubmed.ncbi.nlm.nih.gov/30714420/
+- Khalifa G. et al. **Workplace accommodations for adults with autism spectrum disorder: a scoping review.** *Disability and Rehabilitation*, 2020;42(9):1316–1331. https://doi.org/10.1080/09638288.2018.1527952; https://pubmed.ncbi.nlm.nih.gov/30714420/
 - Lindsay S. et al. **Disclosure and workplace accommodations for people with autism: a systematic review.** *Disability and Rehabilitation*, 2019. https://pubmed.ncbi.nlm.nih.gov/31282214/
 - Weber A. et al. **Physical workplace adjustments to support neurodivergent workers: A systematic review.** *Applied Psychology*, 2024. https://doi.org/10.1111/apps.12431
 

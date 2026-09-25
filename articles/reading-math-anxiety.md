@@ -40,6 +40,8 @@
 
 После этого полезно отметить не только результат, но и условия: что сделало задачу переносимой, а что повысило тревогу. Так постепенно появляется собственный набор опор.
 
+Значительная часть исследований тревоги вокруг математики и учебных трудностей проводится в образовательных выборках, включая студентов. Прямых данных именно по взрослым с подтверждённой дислексией или дискалькулией меньше. Поэтому эти практические шаги не следует считать специфическим доказанным лечением таких состояний: это способы сделать конкретную задачу доступнее и снизить давление вокруг неё.
+
 ## Отделяйте ошибку от оценки себя
 
 Ошибка в цифре, слове или форме может потребовать исправления. Но она не доказывает, что человек невнимателен, глуп или «не создан» для учёбы и работы.
@@ -54,9 +56,9 @@
 
 ## Источники
 
-- Francis D.A. et al. **Internalizing problems in individuals with reading, mathematics and unspecified learning difficulties: a systematic review and meta-analysis.** *Annals of Dyslexia*, 2024. https://pubmed.ncbi.nlm.nih.gov/38135829/
-- Dowker A. et al. **Mathematics anxiety—where are we and where shall we go?** *Annals of the New York Academy of Sciences*, 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9542812/
-- Zhang J. et al. **The neuroscience basis and educational interventions of mathematical cognitive impairment and anxiety: a systematic literature review.** *Frontiers in Human Neuroscience*, 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10720715/
-- Kohn J. et al. **What impact does maths anxiety have on university students?** *BMC Psychology*, 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC7905856/
+- Alves Vieira A.P. et al. **Internalizing problems in individuals with reading, mathematics and unspecified learning difficulties: a systematic review and meta-analysis.** *Annals of Dyslexia*, 2024;74(1):4–26. https://doi.org/10.1007/s11881-023-00294-4; https://pubmed.ncbi.nlm.nih.gov/38135829/
+- Cipora K. et al. **Mathematics anxiety—where are we and where shall we go?** *Annals of the New York Academy of Sciences*, 2022;1513(1):10–20. https://doi.org/10.1111/nyas.14770; https://pmc.ncbi.nlm.nih.gov/articles/PMC9542812/
+- Yu H. **The neuroscience basis and educational interventions of mathematical cognitive impairment and anxiety: a systematic literature review.** *Frontiers in Psychology*, 2023;14:1282957. https://doi.org/10.3389/fpsyg.2023.1282957; https://pmc.ncbi.nlm.nih.gov/articles/PMC10720715/
+- Khasawneh E. et al. **What impact does maths anxiety have on university students?** *BMC Psychology*, 2021;9:37. https://doi.org/10.1186/s40359-021-00537-2; https://pmc.ncbi.nlm.nih.gov/articles/PMC7905856/
 
 > Материал носит информационный характер. По тревоге или трудностям с чтением и числами нельзя самостоятельно установить причину; при выраженном избегании или ухудшении самочувствия стоит обсудить это со специалистом.

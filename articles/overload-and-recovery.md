@@ -68,6 +68,5 @@
 - National Institute for Health and Care Excellence. **Autism spectrum disorder in adults: diagnosis and management (CG142).** https://www.nice.org.uk/guidance/cg142/chapter/recommendations
 - National Institute for Health and Care Excellence. **Attention deficit hyperactivity disorder: diagnosis and management (NG87).** https://www.nice.org.uk/guidance/ng87/chapter/recommendations
 - Raymaker D.M. et al. **Defining Autistic Burnout.** *Autism in Adulthood*, 2020. https://doi.org/10.1089/aut.2019.0079
-- World Health Organization. **Burn-out an “occupational phenomenon”: International Classification of Diseases.** https://www.who.int/mental_health/evidence/burn-out/en/
 
 > Материал носит информационный характер. Усталость имеет много возможных причин; по ней нельзя самостоятельно установить нейроотличие или исключить другое состояние.

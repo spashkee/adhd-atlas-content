@@ -78,6 +78,6 @@
 - Raymaker D.M. et al. **“Having All of Your Internal Resources Exhausted Beyond Measure and Being Left with No Clean-Up Crew”: Defining Autistic Burnout.** *Autism in Adulthood*, 2020. https://doi.org/10.1089/aut.2019.0079
 - Mantzalas J. et al. **What Is Autistic Burnout? A Thematic Analysis of Posts on Two Online Platforms.** *Autism in Adulthood*, 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC8992925/
 - National Institute for Health and Care Excellence. **Autism spectrum disorder in adults: diagnosis and management (CG142).** https://www.nice.org.uk/guidance/cg142/chapter/recommendations
-- Arnold S.R.C. et al. **Measuring autistic burnout: a psychometric validation of the AASPIRE Autistic Burnout Measure in autistic adults.** 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12717295/
+- Bougoure M. et al. **Measuring autistic burnout: a psychometric validation of the AASPIRE Autistic Burnout Measure in autistic adults.** *Autism*, 2026;30(1):20–36. https://doi.org/10.1177/13623613251355255; https://pmc.ncbi.nlm.nih.gov/articles/PMC12717295/
 
 > Материал носит информационный характер. Аутичное выгорание не является самостоятельным диагнозом, а выраженная или новая усталость требует оценки возможных причин вместе со специалистом.
