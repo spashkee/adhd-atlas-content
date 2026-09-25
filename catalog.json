@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.12.1",
-  "updated": "2026-09-24T10:20:00Z",
+  "contentVersion": "0.13.0",
+  "updated": "2026-09-25T10:15:56Z",
   "articles": [
     {
       "id": "what-is-adhd",
@@ -511,6 +511,121 @@
       "lastUpdated": "2026-08-14",
       "featured": false,
       "file": "tic-disorders-daily-life.md"
+    },
+    {
+      "id": "autistic-burnout",
+      "title": "Аутичное выгорание: перегрузка и восстановление",
+      "description": "Что исследователи называют аутичным выгоранием, как может накапливаться нагрузка и почему важно учитывать другие возможные причины ухудшения самочувствия.",
+      "category": "Повседневная жизнь",
+      "neurotypes": [
+        "autism"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 6,
+      "lastUpdated": "2026-09-25",
+      "featured": false,
+      "file": "autistic-burnout.md"
+    },
+    {
+      "id": "autism-masking",
+      "title": "Маскинг: почему постоянная адаптация утомляет",
+      "description": "Что называют маскингом и камуфлированием, зачем люди используют такие стратегии и как уменьшать ненужную социальную нагрузку.",
+      "category": "Особенности",
+      "neurotypes": [
+        "autism"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 5,
+      "lastUpdated": "2026-09-25",
+      "featured": false,
+      "file": "autism-masking.md"
+    },
+    {
+      "id": "neurodivergent-work-study-accommodations",
+      "title": "Работа и учёба с нейроотличиями",
+      "description": "Как описывать функциональные трудности и просить понятные изменения процесса: письменные инструкции, доступный формат, темп и рабочую среду.",
+      "category": "Поддержка",
+      "neurotypes": [
+        "adhd",
+        "autism",
+        "dyslexia",
+        "dyscalculia",
+        "developmental-coordination-disorder",
+        "tic-disorders"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 6,
+      "lastUpdated": "2026-09-25",
+      "featured": false,
+      "file": "neurodivergent-work-study-accommodations.md"
+    },
+    {
+      "id": "neurodivergent-relationships",
+      "title": "Близкие отношения и нейроотличия",
+      "description": "Как ясные договорённости, внешние опоры и заранее согласованные паузы могут уменьшить недопонимание и бытовую нагрузку.",
+      "category": "Повседневная жизнь",
+      "neurotypes": [
+        "adhd",
+        "autism"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 5,
+      "lastUpdated": "2026-09-25",
+      "featured": false,
+      "file": "neurodivergent-relationships.md"
+    },
+    {
+      "id": "overload-and-recovery",
+      "title": "Перегрузка и восстановление",
+      "description": "Как сенсорная, социальная, эмоциональная, исполнительная и физическая нагрузка могут складываться и какие небольшие изменения помогают сохранить ресурсы.",
+      "category": "Поддержка",
+      "neurotypes": [
+        "adhd",
+        "autism",
+        "dyslexia",
+        "dyscalculia",
+        "developmental-coordination-disorder",
+        "tic-disorders"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 5,
+      "lastUpdated": "2026-09-25",
+      "featured": false,
+      "file": "overload-and-recovery.md"
+    },
+    {
+      "id": "preparing-for-consultation",
+      "title": "Как подготовиться к консультации",
+      "description": "Как собрать конкретные примеры трудностей, историю, вопросы и заметки для специалиста, не подгоняя рассказ под предполагаемый диагноз.",
+      "category": "Поддержка",
+      "neurotypes": [
+        "adhd",
+        "autism",
+        "dyslexia",
+        "dyscalculia",
+        "developmental-coordination-disorder",
+        "tic-disorders"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 4,
+      "lastUpdated": "2026-09-25",
+      "featured": false,
+      "file": "preparing-for-consultation.md"
+    },
+    {
+      "id": "reading-math-anxiety",
+      "title": "Тревога вокруг чтения, чисел и ошибок",
+      "description": "Почему трудности чтения и работы с числами могут сопровождаться тревогой и избеганием и как уменьшить давление вокруг таких задач.",
+      "category": "Повседневная жизнь",
+      "neurotypes": [
+        "dyslexia",
+        "dyscalculia"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 5,
+      "lastUpdated": "2026-09-25",
+      "featured": false,
+      "file": "reading-math-anxiety.md"
     }
   ]
 }

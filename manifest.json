@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.12.1",
-  "updated": "2026-09-24T10:20:00Z",
+  "contentVersion": "0.13.0",
+  "updated": "2026-09-25T10:15:56Z",
   "articles": [
     {
       "id": "autism-diagnosis",
@@ -19,8 +19,18 @@
       "version": 2
     },
     {
+      "id": "autism-masking",
+      "file": "autism-masking.md",
+      "version": 1
+    },
+    {
       "id": "autism-sensory-overload",
       "file": "autism-sensory-overload.md",
+      "version": 1
+    },
+    {
+      "id": "autistic-burnout",
+      "file": "autistic-burnout.md",
       "version": 1
     },
     {
@@ -121,6 +131,31 @@
     {
       "id": "neurodivergence-cooccurrence",
       "file": "neurodivergence-cooccurrence.md",
+      "version": 1
+    },
+    {
+      "id": "neurodivergent-relationships",
+      "file": "neurodivergent-relationships.md",
+      "version": 1
+    },
+    {
+      "id": "neurodivergent-work-study-accommodations",
+      "file": "neurodivergent-work-study-accommodations.md",
+      "version": 1
+    },
+    {
+      "id": "overload-and-recovery",
+      "file": "overload-and-recovery.md",
+      "version": 1
+    },
+    {
+      "id": "preparing-for-consultation",
+      "file": "preparing-for-consultation.md",
+      "version": 1
+    },
+    {
+      "id": "reading-math-anxiety",
+      "file": "reading-math-anxiety.md",
       "version": 1
     },
     {
