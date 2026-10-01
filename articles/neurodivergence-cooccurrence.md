@@ -110,6 +110,22 @@
 
 ---
 
+# СДВГ и РАС у взрослых: скрининг не равен диагнозу
+
+Совместное присутствие СДВГ и РАС возможно, а современная диагностика допускает оба диагноза одновременно, если человек соответствует критериям каждого.
+
+При этом цифры сильно зависят от метода оценки. Систематический обзор 2024 года нашёл в исследованиях людей с первичным диагнозом СДВГ широкий разброс клинически значимых аутичных признаков — примерно от 15% до 64%. В одном взрослом исследовании высокий результат по опроснику встречался значительно чаще, чем подтверждение РАС более полной диагностической процедурой.
+
+Это хороший пример того, почему важно различать:
+
+- отдельные аутичные черты;
+- высокий результат скрининга;
+- соответствие диагностическим критериям РАС.
+
+Термин «АуСДВГ» удобен в сообществах для описания сочетания двух диагнозов, но сам по себе не является отдельной диагностической категорией.
+
+---
+
 # Почему это важно для скрининга
 
 Скрининговый опросник обычно оценивает одно конкретное направление.
@@ -152,5 +168,7 @@
 - Pranjić M. et al. **A systematic review of behavioral and neurobiological profiles associated with coexisting ADHD and DCD.** 2023: https://pmc.ncbi.nlm.nih.gov/articles/PMC12042734/
 - Marks R.A. et al. **Neurocognitive mechanisms of co-occurring math difficulties in dyslexia: Differences in executive function and visuospatial processing.** Developmental Science, 2024: https://doi.org/10.1111/desc.13443
 - Cravedi E. et al. **Tourette syndrome and other neurodevelopmental disorders: a comprehensive review.** 2017: https://doi.org/10.1186/s13034-017-0196-x
+- Zhong Q., Porter M. **Autism Spectrum Disorder Symptoms in Individuals with a Primary Diagnosis of Attention-Deficit/Hyperactivity Disorder: A Systematic Review.** 2024: https://doi.org/10.1007/s40489-024-00443-4
+- Cortese S. et al. **An update on the comorbidity of ADHD and ASD and its clinical management.** 2025: https://doi.org/10.1080/14737175.2025.2599856
 
 > Материал носит информационный характер. Совместная встречаемость признаков не позволяет самостоятельно устанавливать несколько диагнозов; каждый диагноз требует оценки собственных критериев и альтернативных объяснений.
