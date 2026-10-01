@@ -43,6 +43,16 @@
 
 ---
 
+# «Тайм-блайнднес» — разговорный термин
+
+«Слепота ко времени» хорошо описывает субъективный опыт многих людей, но это не отдельный диагноз и не пункт диагностических критериев СДВГ.
+
+В исследованиях обычно измеряют более конкретные процессы: оценку длительности интервала, воспроизведение времени, временную перспективу и способность использовать временные сигналы.
+
+Метаанализ 2024 года, включивший 824 эффекта из исследований разных возрастов, подтвердил групповые различия в задачах восприятия времени при СДВГ. Но это не означает, что одинаковая проблема есть у каждого человека с диагнозом или что любое опоздание объясняется одним механизмом.
+
+---
+
 # Это не значит, что человек не умеет пользоваться часами
 
 Важно понимать:
@@ -393,9 +403,10 @@
 4. National Institute for Health and Care Excellence (NICE). *Attention deficit hyperactivity disorder: diagnosis and management (NG87).*
 
 5. Willcutt E. G. et al. *Validity of the executive function theory of attention-deficit/hyperactivity disorder: A meta-analytic review.* Biological Psychiatry, 2005.
+6. Metcalfe K. B., McFeaters C. D., Voyer D. *Time-Perception Deficits in Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis.* Developmental Neuropsychology, 2024. PMID: https://pubmed.ncbi.nlm.nih.gov/38145491/
 
 ---
 
 **Дата первой публикации:** 2026-07-31
 
-**Дата последнего обновления:** 2026-07-31
+**Дата последнего обновления:** 2026-10-01
