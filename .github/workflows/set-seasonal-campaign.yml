@@ -85,42 +85,7 @@ jobs:
           NODE
 
       - name: Validate campaign JSON
-        run: |
-          node --input-type=module <<'NODE'
-          import {
-            readFileSync,
-          } from "node:fs";
-
-          const campaign = JSON.parse(
-            readFileSync(
-              "campaign.json",
-              "utf8",
-            ),
-          );
-
-          if (
-            campaign.schemaVersion !== 1 ||
-            typeof campaign.enabled !==
-              "boolean" ||
-            !Array.isArray(
-              campaign.featuredArticles,
-            ) ||
-            !Number.isFinite(
-              Date.parse(
-                campaign.startsAt,
-              ),
-            ) ||
-            !Number.isFinite(
-              Date.parse(
-                campaign.endsAt,
-              ),
-            )
-          ) {
-            throw new Error(
-              "campaign.json failed validation",
-            );
-          }
-          NODE
+        run: node scripts/validate-campaign.mjs
 
       - name: Commit campaign switch
         env:
