@@ -11,7 +11,15 @@
 - Может быть сложно быстро успокоиться после неприятной ситуации.
 - Критика, отказ или конфликт могут восприниматься особенно болезненно.
 - Эти особенности могут влиять на отношения, работу и повседневную жизнь.
-- Эмоциональная дисрегуляция не является отдельным диагнозом СДВГ, но часто встречается у людей с этим расстройством.
+- Эмоциональная дисрегуляция часто встречается при СДВГ и может существенно ухудшать жизнь, но сейчас она не входит в обязательные основные критерии DSM-5-TR или ICD-11.
+
+---
+
+# Что известно науке?
+
+Систематические обзоры находят у взрослых с СДВГ больше трудностей эмоциональной регуляции в среднем, чем у контрольных групп. При этом исследования неоднородны: используются разные определения и инструменты, а тревога, депрессия и другие сопутствующие состояния могут влиять на результат.
+
+Поэтому корректнее считать эмоциональную дисрегуляцию важной **ассоциированной особенностью**, которую стоит оценивать и поддерживать, а не отдельным доказательством диагноза.
 
 ---
 
@@ -359,9 +367,11 @@
 4. Shaw P. et al. *Attention-deficit/hyperactivity disorder is characterized by a delay in cortical maturation.* Proceedings of the National Academy of Sciences, 2007.
 
 5. National Institute for Health and Care Excellence (NICE). *Attention deficit hyperactivity disorder: diagnosis and management (NG87).*
+6. Soler-Gutiérrez A. M. et al. *Evidence of emotion dysregulation as a core symptom of adult ADHD: A systematic review.* PLOS ONE, 2023. https://doi.org/10.1371/journal.pone.0280131
+7. Cortese S. et al. *Attention-deficit/hyperactivity disorder (ADHD) in adults: evidence base, uncertainties and controversies.* World Psychiatry, 2025. https://doi.org/10.1002/wps.21374
 
 ---
 
 **Дата первой публикации:** 2026-07-31
 
-**Дата последнего обновления:** 2026-07-31
+**Дата последнего обновления:** 2026-10-01
