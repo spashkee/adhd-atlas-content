@@ -375,7 +375,8 @@
 4. Cortese S. et al. *Comparative efficacy and tolerability of medications for attention-deficit hyperactivity disorder in children, adolescents, and adults.* The Lancet Psychiatry, 2018.  
 5. Ostinelli E. G. et al. *Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults: a systematic review and component network meta-analysis.* The Lancet Psychiatry, 2025. https://doi.org/10.1016/S2215-0366(24)00360-2  
 6. Nourredine M. et al. *Pharmacological interventions for ADHD: a systematic review and dose-effect network meta-analysis.* The Lancet Psychiatry, 2026. https://doi.org/10.1016/S2215-0366(26)00091-X  
-7. Barkley R. A. *Taking Charge of Adult ADHD.* 2nd Edition, Guilford Press, 2021.
+7. *Correction to Lancet Psychiatry 2026; 13: 485–95.* The Lancet Psychiatry, 2026. Исправление относится к подписи данных modafinil/guanfacine в figure 5; онлайн-версия статьи исправлена 12.06.2026. https://doi.org/10.1016/S2215-0366(26)00175-6  
+8. Barkley R. A. *Taking Charge of Adult ADHD.* 2nd Edition, Guilford Press, 2021.
 
 ---
 
