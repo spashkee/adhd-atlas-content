@@ -124,6 +124,8 @@
 
 Термин «АуСДВГ» удобен в сообществах для описания сочетания двух диагнозов, но сам по себе не является отдельной диагностической категорией.
 
+В 2026 году в небольшой высокоселективной когорте молодых взрослых, переходивших из детско-подростковой службы в специализированную ADHD-службу, подтверждённый аутизм встречался у 53%. Это **не оценка распространённости среди всех людей с СДВГ**: выборка была клинической и специально отобранной. Исследование интересно другим выводом — даже в группе без подтверждённого РАС было много аутичных признаков, а RAADS-14 авторы рассматривали как часть скрининга и планирования поддержки, а не как самостоятельный диагноз.
+
 ---
 
 # Почему это важно для скрининга
@@ -170,5 +172,6 @@
 - Cravedi E. et al. **Tourette syndrome and other neurodevelopmental disorders: a comprehensive review.** 2017: https://doi.org/10.1186/s13034-017-0196-x
 - Zhong Q., Porter M. **Autism Spectrum Disorder Symptoms in Individuals with a Primary Diagnosis of Attention-Deficit/Hyperactivity Disorder: A Systematic Review.** 2024: https://doi.org/10.1007/s40489-024-00443-4
 - Cortese S. et al. **An update on the comorbidity of ADHD and ASD and its clinical management.** 2025: https://doi.org/10.1080/14737175.2025.2599856
+- Boilson M. et al. **Autism and autism features in a young adult ADHD population, gender differences and use of the RAADS-14.** 2026: https://doi.org/10.1017/ipm.2026.10213
 
 > Материал носит информационный характер. Совместная встречаемость признаков не позволяет самостоятельно устанавливать несколько диагнозов; каждый диагноз требует оценки собственных критериев и альтернативных объяснений.
