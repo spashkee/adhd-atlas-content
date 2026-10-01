@@ -305,6 +305,10 @@
 
 Выбор терапии всегда требует индивидуального баланса пользы, рисков, сопутствующих состояний и доступности препаратов в конкретной стране.
 
+В 2026 году отдельный dose-effect network meta-analysis 113 рандомизированных исследований показал, что связь дозы с эффективностью и переносимостью различается между препаратами и возрастными группами. Главный практический вывод авторов — избегать как «терапевтической инерции» при недостаточном эффекте, так и некритичного повышения дозы, когда ожидаемая польза перестаёт оправдывать риски.
+
+Это исследование **не является инструкцией самостоятельно менять дозировку**. Подбор и титрация проводятся специалистом в пределах применимых рекомендаций и зарегистрированных доз.
+
 ---
 
 # Почему лекарства не являются единственным решением?
@@ -370,7 +374,8 @@
 3. Faraone S. V. et al. *The World Federation of ADHD International Consensus Statement: 208 Evidence-based Conclusions about the Disorder.* Neuroscience & Biobehavioral Reviews, 2021.  
 4. Cortese S. et al. *Comparative efficacy and tolerability of medications for attention-deficit hyperactivity disorder in children, adolescents, and adults.* The Lancet Psychiatry, 2018.  
 5. Ostinelli E. G. et al. *Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults: a systematic review and component network meta-analysis.* The Lancet Psychiatry, 2025. https://doi.org/10.1016/S2215-0366(24)00360-2  
-6. Barkley R. A. *Taking Charge of Adult ADHD.* 2nd Edition, Guilford Press, 2021.
+6. Nourredine M. et al. *Pharmacological interventions for ADHD: a systematic review and dose-effect network meta-analysis.* The Lancet Psychiatry, 2026. https://doi.org/10.1016/S2215-0366(26)00091-X  
+7. Barkley R. A. *Taking Charge of Adult ADHD.* 2nd Edition, Guilford Press, 2021.
 
 ---
 
