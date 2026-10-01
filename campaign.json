@@ -14,7 +14,7 @@
   },
   "secondaryAction": {
     "label": "Пройти скрининг",
-    "route": "/screenings"
+    "route": "/screening"
   },
   "featuredArticles": [
     "what-is-adhd",
