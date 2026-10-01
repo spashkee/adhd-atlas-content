@@ -90,6 +90,83 @@ jobs:
             }
           }
 
+          if (existsSync("campaign.json")) {
+            const campaign = JSON.parse(
+              readFileSync("campaign.json", "utf8"),
+            );
+
+            if (
+              campaign.schemaVersion !== 1 ||
+              typeof campaign.campaignId !== "string" ||
+              typeof campaign.version !== "number" ||
+              typeof campaign.enabled !== "boolean" ||
+              typeof campaign.startsAt !== "string" ||
+              typeof campaign.endsAt !== "string" ||
+              typeof campaign.theme !== "string" ||
+              typeof campaign.title !== "string" ||
+              typeof campaign.subtitle !== "string" ||
+              !Array.isArray(campaign.featuredArticles)
+            ) {
+              throw new Error("invalid campaign.json schema");
+            }
+
+            const start = Date.parse(campaign.startsAt);
+            const end = Date.parse(campaign.endsAt);
+
+            if (
+              !Number.isFinite(start) ||
+              !Number.isFinite(end) ||
+              end <= start
+            ) {
+              throw new Error("invalid campaign date range");
+            }
+
+            const articleIds = new Set(
+              catalog.articles.map(
+                (article) => article.id,
+              ),
+            );
+
+            for (
+              const articleId of
+              campaign.featuredArticles
+            ) {
+              if (
+                typeof articleId !== "string" ||
+                !articleIds.has(articleId)
+              ) {
+                throw new Error(
+                  `campaign references missing article: ${articleId}`,
+                );
+              }
+            }
+
+            if (
+              campaign.primaryAction?.articleId &&
+              !articleIds.has(
+                campaign.primaryAction.articleId,
+              )
+            ) {
+              throw new Error(
+                "campaign primary action references missing article",
+              );
+            }
+
+            if (
+              campaign.secondaryAction?.route &&
+              typeof campaign.secondaryAction.route !==
+                "string"
+            ) {
+              throw new Error(
+                "campaign secondary route must be a string",
+              );
+            }
+
+            console.log(
+              `Campaign OK: ${campaign.campaignId}, ${campaign.featuredArticles.length} featured articles`,
+            );
+          }
+
           console.log(
             `Remote content OK: ${catalog.contentVersion}, ${catalog.articles.length} articles`,
           );
