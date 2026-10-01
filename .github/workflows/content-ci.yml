@@ -171,3 +171,6 @@ jobs:
             `Remote content OK: ${catalog.contentVersion}, ${catalog.articles.length} articles`,
           );
           NODE
+
+      - name: Validate seasonal campaign against client schema
+        run: node scripts/validate-campaign.mjs
