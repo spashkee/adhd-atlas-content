@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "adhd-awareness-2026",
+  "version": 1,
+  "enabled": true,
+  "startsAt": "2026-10-01T00:00:00+03:00",
+  "endsAt": "2026-11-01T00:00:00+03:00",
+  "theme": "october-adhd",
+  "title": "Октябрь — месяц осведомлённости о СДВГ",
+  "subtitle": "Больше понимания. Меньше стыда. Больше поддержки.",
+  "primaryAction": {
+    "label": "Узнать больше",
+    "articleId": "what-is-adhd"
+  },
+  "secondaryAction": {
+    "label": "Пройти скрининг",
+    "route": "/screenings"
+  },
+  "featuredArticles": [
+    "what-is-adhd",
+    "adhd-in-women",
+    "sleep-and-adhd",
+    "adhd-information-online",
+    "diagnosis-of-adhd",
+    "dopamine-and-motivation"
+  ]
+}
