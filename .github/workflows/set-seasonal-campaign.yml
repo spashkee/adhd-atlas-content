@@ -1,0 +1,101 @@
+name: Set seasonal campaign state
+
+on:
+  workflow_dispatch:
+    inputs:
+      enabled:
+        description: "Campaign enabled"
+        required: true
+        type: choice
+        options:
+          - "false"
+          - "true"
+        default: "false"
+      confirm:
+        description: "Type SET to confirm the production campaign change"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seasonal-campaign-state
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Update remote campaign switch
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Require explicit confirmation
+        env:
+          CONFIRM: ${{ inputs.confirm }}
+        run: |
+          set -euo pipefail
+          if [ "$CONFIRM" != "SET" ]; then
+            echo "::error::Confirmation must be exactly SET."
+            exit 1
+          fi
+
+      - name: Checkout production content
+        uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Update campaign state
+        env:
+          CAMPAIGN_ENABLED: ${{ inputs.enabled }}
+        run: |
+          node --input-type=module <<'NODE'
+          import {
+            readFileSync,
+            writeFileSync,
+          } from "node:fs";
+
+          const path = "campaign.json";
+          const campaign = JSON.parse(
+            readFileSync(path, "utf8"),
+          );
+
+          campaign.enabled =
+            process.env.CAMPAIGN_ENABLED ===
+            "true";
+
+          campaign.version =
+            Number(campaign.version ?? 0) + 1;
+
+          campaign.updatedAt =
+            new Date().toISOString();
+
+          writeFileSync(
+            path,
+            JSON.stringify(
+              campaign,
+              null,
+              2,
+            ) + "\n",
+            "utf8",
+          );
+
+          console.log(
+            `Campaign ${campaign.campaignId}: enabled=${campaign.enabled}, version=${campaign.version}`,
+          );
+          NODE
+
+      - name: Validate campaign JSON
+        run: node scripts/validate-campaign.mjs
+
+      - name: Commit campaign switch
+        env:
+          CAMPAIGN_ENABLED: ${{ inputs.enabled }}
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add campaign.json
+          git commit -m "content: set seasonal campaign enabled=$CAMPAIGN_ENABLED"
+          git push origin HEAD:main

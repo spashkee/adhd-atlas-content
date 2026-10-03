@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.13.0",
-  "updated": "2026-09-25T10:15:56Z",
+  "contentVersion": "0.14.0",
+  "updated": "2026-10-01T12:58:00Z",
   "articles": [
     {
       "id": "what-is-adhd",
@@ -13,7 +13,7 @@
       ],
       "difficulty": "Начальный",
       "readingTime": 8,
-      "lastUpdated": "2026-07-31",
+      "lastUpdated": "2026-10-01",
       "featured": true,
       "file": "what-is-adhd.md"
     },
@@ -27,7 +27,7 @@
       ],
       "difficulty": "Начальный",
       "readingTime": 7,
-      "lastUpdated": "2026-07-31",
+      "lastUpdated": "2026-10-01",
       "featured": true,
       "file": "symptoms-of-adhd.md"
     },
@@ -41,7 +41,7 @@
       ],
       "difficulty": "Начальный",
       "readingTime": 8,
-      "lastUpdated": "2026-07-28",
+      "lastUpdated": "2026-10-01",
       "featured": true,
       "file": "diagnosis-of-adhd.md"
     },
@@ -55,7 +55,7 @@
       ],
       "difficulty": "Начальный",
       "readingTime": 9,
-      "lastUpdated": "2026-07-28",
+      "lastUpdated": "2026-10-01",
       "featured": true,
       "file": "executive-functions.md"
     },
@@ -69,7 +69,7 @@
       ],
       "difficulty": "Средний",
       "readingTime": 8,
-      "lastUpdated": "2026-07-28",
+      "lastUpdated": "2026-10-01",
       "featured": true,
       "file": "brain-and-adhd.md"
     },
@@ -88,7 +88,7 @@
       ],
       "difficulty": "Начальный",
       "readingTime": 6,
-      "lastUpdated": "2026-08-14",
+      "lastUpdated": "2026-10-01",
       "featured": false,
       "file": "neurodivergence-cooccurrence.md"
     },
@@ -102,7 +102,7 @@
       ],
       "difficulty": "Средний",
       "readingTime": 12,
-      "lastUpdated": "2026-07-31",
+      "lastUpdated": "2026-10-01",
       "featured": false,
       "file": "medication.md"
     },
@@ -116,7 +116,7 @@
       ],
       "difficulty": "Начальный",
       "readingTime": 10,
-      "lastUpdated": "2026-07-31",
+      "lastUpdated": "2026-10-01",
       "featured": false,
       "file": "hyperfocus.md"
     },
@@ -130,7 +130,7 @@
       ],
       "difficulty": "Средний",
       "readingTime": 12,
-      "lastUpdated": "2026-07-31",
+      "lastUpdated": "2026-10-01",
       "featured": false,
       "file": "emotional-dysregulation.md"
     },
@@ -144,7 +144,7 @@
       ],
       "difficulty": "Начальный",
       "readingTime": 12,
-      "lastUpdated": "2026-07-31",
+      "lastUpdated": "2026-10-01",
       "featured": false,
       "file": "time-blindness.md"
     },
@@ -158,7 +158,7 @@
       ],
       "difficulty": "Средний",
       "readingTime": 10,
-      "lastUpdated": "2026-07-31",
+      "lastUpdated": "2026-10-01",
       "featured": false,
       "file": "dopamine-and-motivation.md"
     },
@@ -626,6 +626,48 @@
       "lastUpdated": "2026-09-25",
       "featured": false,
       "file": "reading-math-anxiety.md"
+    },
+    {
+      "id": "adhd-in-women",
+      "title": "СДВГ у женщин: почему его часто замечают позже",
+      "description": "Поздняя диагностика, менее заметные проявления, гормональные этапы и границы того, что наука уже знает.",
+      "category": "Особенности",
+      "neurotypes": [
+        "adhd"
+      ],
+      "difficulty": "Средний",
+      "readingTime": 9,
+      "lastUpdated": "2026-10-01",
+      "featured": false,
+      "file": "adhd-in-women.md"
+    },
+    {
+      "id": "sleep-and-adhd",
+      "title": "Сон и СДВГ",
+      "description": "Почему сон и внимание влияют друг на друга, какие проблемы сна встречаются при СДВГ и зачем учитывать их при диагностике.",
+      "category": "Поддержка",
+      "neurotypes": [
+        "adhd"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 8,
+      "lastUpdated": "2026-10-01",
+      "featured": false,
+      "file": "sleep-and-adhd.md"
+    },
+    {
+      "id": "adhd-information-online",
+      "title": "СДВГ в интернете: как проверять психопросвет",
+      "description": "Как отличать личный опыт, скрининг и научные данные и почему уверенный ролик не заменяет диагностику.",
+      "category": "Основы",
+      "neurotypes": [
+        "adhd"
+      ],
+      "difficulty": "Начальный",
+      "readingTime": 6,
+      "lastUpdated": "2026-10-01",
+      "featured": false,
+      "file": "adhd-information-online.md"
     }
   ]
 }
